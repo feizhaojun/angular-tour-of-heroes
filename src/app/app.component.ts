@@ -1,3 +1,9 @@
+/*
+ * @Author: Mukti
+ * @Date: 2021-11-16 16:13:47
+ * @LastEditTime: 2021-11-16 16:18:57
+ * @LastEditors: Mukti
+ */
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +12,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'angular-tour-of-heroes';
+  title = 'Tour of Heroes';
 }
