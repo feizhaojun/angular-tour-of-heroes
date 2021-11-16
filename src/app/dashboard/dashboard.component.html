@@ -1,0 +1,14 @@
+<!--
+ * @Author: Mukti
+ * @Date: 2021-11-16 17:07:48
+ * @LastEditTime: 2021-11-16 17:59:39
+ * @LastEditors: Mukti
+-->
+<h2>Top Heroes</h2>
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes" routerLink="/detail/{{hero.id}}">
+    {{hero.name}}
+  </a>
+</div>
+
+<app-hero-search></app-hero-search>
